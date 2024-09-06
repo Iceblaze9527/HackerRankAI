@@ -3,7 +3,7 @@ def count_dilation(image, kernel):
     n_cols = len(image[0])
     
     kernel_center_x = len(kernel) // 2
-    kernel_center_y = len(kernel[0]) // 2 - 1
+    kernel_center_y = len(kernel[0]) // 2
     
     n_dilated = 0
     for x in range(n_rows):
